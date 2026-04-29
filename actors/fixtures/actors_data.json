@@ -1,0 +1,58 @@
+[
+  {
+    "model": "actors.actor",
+    "pk": 1,
+    "fields": {
+      "first_name": "Leonardo",
+      "last_name": "DiCaprio",
+      "birth_date": "1974-11-11",
+      "nationality": "Estadounidense",
+      "bio": "Actor ganador del Oscar conocido por sus roles dramáticos.",
+      "movies": [1],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 2,
+    "fields": {
+      "first_name": "Christian",
+      "last_name": "Bale",
+      "birth_date": "1974-01-30",
+      "nationality": "Británico",
+      "bio": "Actor conocido por su transformación física en cada rol.",
+      "movies": [2],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 3,
+    "fields": {
+      "first_name": "Matthew",
+      "last_name": "McConaughey",
+      "birth_date": "1969-11-04",
+      "nationality": "Estadounidense",
+      "bio": "Actor ganador del Oscar con amplia trayectoria en Hollywood.",
+      "movies": [3],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 4,
+    "fields": {
+      "first_name": "Daniel",
+      "last_name": "Kaluuya",
+      "birth_date": "1989-02-24",
+      "nationality": "Británico",
+      "bio": "Actor nominado al Oscar por su papel en Get Out.",
+      "movies": [4],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  }
+]

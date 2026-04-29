@@ -16,8 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from movies.views import MovieViewSet, GenreViewSet
+from actors.views import ActorViewSet
+
+# IMPORTANTE: un solo router para toda la API
+router = DefaultRouter()
+router.register(r'movies', MovieViewSet, basename='movie')
+router.register(r'genres', GenreViewSet, basename='genre')
+router.register(r'actors', ActorViewSet, basename='actor')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('movies.urls')),  # esto falta
+    path('api/', include(router.urls)),  # CAMBIO: un solo include
 ]
