@@ -16,4 +16,8 @@
 ![](./docs/4.png)
 
 
-## 
+## App nuevo actores 
+
+![](./docs/5.png)
+
+![](./docs/6.png)
