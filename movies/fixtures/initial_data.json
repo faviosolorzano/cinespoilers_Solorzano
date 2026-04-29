@@ -1,0 +1,82 @@
+[
+  {
+    "model": "movies.genre",
+    "pk": 1,
+    "fields": { "name": "Acción" }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 2,
+    "fields": { "name": "Ciencia Ficción" }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 3,
+    "fields": { "name": "Drama" }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 4,
+    "fields": { "name": "Terror" }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Inception",
+      "synopsis": "Un ladrón especializado en robar secretos del subconsciente recibe la misión de implantar una idea.",
+      "release_year": 2010,
+      "director": "Christopher Nolan",
+      "duration_minutes": 148,
+      "is_active": true,
+      "genres": [1, 2],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "The Dark Knight",
+      "synopsis": "Batman enfrenta al Joker, un criminal que busca sumir Gotham en el caos.",
+      "release_year": 2008,
+      "director": "Christopher Nolan",
+      "duration_minutes": 152,
+      "is_active": true,
+      "genres": [1],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Interstellar",
+      "synopsis": "Un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.",
+      "release_year": 2014,
+      "director": "Christopher Nolan",
+      "duration_minutes": 169,
+      "is_active": true,
+      "genres": [2, 3],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Get Out",
+      "synopsis": "Un joven afroamericano visita a la familia de su novia y descubre una perturbadora realidad.",
+      "release_year": 2017,
+      "director": "Jordan Peele",
+      "duration_minutes": 104,
+      "is_active": true,
+      "genres": [4, 3],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  }
+]
